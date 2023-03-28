@@ -1,0 +1,20 @@
+/* About.module.css */
+.container {
+  color: black;
+  background-color: white;
+}
+
+.header {
+  background-color: red;
+  color: white;
+  padding: 10px;
+}
+
+h5 {
+  color: red;
+}
+
+.btn-primary {
+  background-color: red;
+  border-color: red;
+}
