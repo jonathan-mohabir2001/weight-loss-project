@@ -11,9 +11,9 @@ function About() {
       <main>
         <section className="my-5">
           <p>
-            I am a 21-year-old college student who decided to make a change in
-            my life. I was tired of being overweight and not being able to do
-            the things I wanted to do.
+            I am a 21-year-old male who decided to make a change in my life at
+            19. I was tired of being overweight and not being able to get the
+            results in life that I wanted.
           </p>
 
           <p>
@@ -37,10 +37,12 @@ function About() {
             program.
           </p>
 
-          <p>
-            I am not a doctor, nutritionist, or any other type of medical
-            professional. I am just a guy who decided to make a change in his
-          </p>
+          <div class="alert alert-warning" role="alert">
+            <p class="mb-0">
+              I am not a doctor, nutritionist, or any other type of medical
+              professional. I am just a guy who decided to make a change in his
+            </p>
+          </div>
         </section>
       </main>
 
