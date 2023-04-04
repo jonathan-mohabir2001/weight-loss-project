@@ -4,14 +4,15 @@ import './Home.css';
 
 function Home() {
   return (
-    <div className="container-fluid main-home-section bg-light">
-      <header className="bg-white">
-        <h1>60 DOWN - Jonathan M</h1>
+    <div
+      className="container-fluid main-home-section bg-light"
+      style={{ backgroundColor: '#f0f3f5' }}
+    >
+      <header className="bg-white py-3">
+        <h1 className="text-center">60 DOWN - Jonathan M</h1>
       </header>
 
-      <br />
-      <br />
-      <main className="bg-white">
+      <main className="bg-white py-5">
         <div className="container">
           <section className="row">
             <div className="col-md-6">
@@ -24,11 +25,15 @@ function Home() {
               </p>
             </div>
             <div className="col-md-6" id="intro-image">
-              <img src="path-to-your-image.jpg" alt="Book cover" />
+              <img
+                src="path-to-your-image.jpg"
+                alt="Book cover"
+                className="img-fluid"
+              />
             </div>
           </section>
 
-          <div id="more-about">
+          <div id="more-about" className="text-center my-5">
             <p>
               Check the next page below to learn a little more about my story
               and why I decided to write this book.
@@ -41,16 +46,14 @@ function Home() {
               My Story
             </Link>
           </div>
-
-          <br />
-          <br />
-
-          {/* Other sections remain the same */}
         </div>
+
         <div className="container my-5">
           <div className="card bg-warning-red">
             <div className="card-header">
-              <h2 style={{ color: 'red' }}>Disclaimer</h2>
+              <h2 className="text-center" style={{ color: 'red' }}>
+                Disclaimer
+              </h2>
             </div>
             <div className="card-body">
               <p className="font-weight-bold">
@@ -80,8 +83,8 @@ function Home() {
         </div>
       </main>
 
-      <footer className="bg-white text-muted text-center">
-        Application developed by Jonathan Mohabir / Author of 60 DOWN
+      <footer className="bg-white text-muted text-center py-3">
+        Application developed by Jonathan M
       </footer>
     </div>
   );
