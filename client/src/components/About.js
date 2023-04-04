@@ -11,7 +11,7 @@ function About() {
       <main>
         <section className="my-5">
           <p>
-            I am a 21-year-old male who decided to make a change in my life at
+            I am a 21-year-old dude who decided to make a change in my life at
             19. I was tired of being overweight and not being able to get the
             results in life that I wanted.
           </p>
