@@ -4,3 +4,5 @@ server/node_modules
 client/src/components/secretFolder
 
 client/src/components/secretFolder/stripeKey.js
+.env 
+
